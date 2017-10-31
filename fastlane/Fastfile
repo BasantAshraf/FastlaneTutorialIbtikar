@@ -1,0 +1,26 @@
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.6.0"
+
+default_platform :ios
+
+platform :ios do
+
+
+
+
+
+ desc "Submit a new Beta Build to Fabric without notifications"
+  lane :provision do
+match
+  end
+
+
+
+
+
+  error do |lane, exception|
+  # This block is called if there was an error running a lane.
+  end
+
+end
